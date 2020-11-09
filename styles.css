@@ -1,0 +1,107 @@
+@media screen and (min-width: 800px) {
+body{
+    text-align: center;
+    margin: auto;
+}
+}
+.Top {
+margin: auto;
+align-items: center;
+font-family: roboto;
+background-color: rgb(167, 93, 93);
+position: sticky;
+top:0;
+height: 70px;
+padding: 10px;
+}
+.middle{
+    height: auto;
+    display: grid;
+    grid-template-columns: 120px 1fr ;
+    grid-template-rows: 1fr;
+}
+.Main{
+
+    grid-template-columns: repeat(50px);
+    background-color: rgb(197, 197, 197);
+    display:grid;
+    grid-gap: 10px;
+    align-content: start;
+    width: auto;
+    height: 800px;
+    bottom:0;
+    padding: 10px;
+}
+.Buttons{
+    font-family: roboto;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-column-gap: 10px;
+    height: 20px;
+    align-items: center;
+    }
+.New{
+border-radius: 8px;
+color: white;
+width: 100px;    
+background: rgb(0, 128, 75)
+}
+.Dark{
+border-radius: 8px;
+color: white;
+width: 100px;  
+background: rgb(63, 61, 61);
+}
+.Save{
+    border-radius: 8px;
+    color: white;
+    width: 100px;  
+    background: green;
+                                                                                                                                                                                                           
+}
+.Cancel{
+    border-radius: 8px;
+    color: white;
+    width: 100px;  
+    background: red;
+}
+.Textbox{
+    text-align: left;
+border-radius: 10px;
+color:grey;
+width: 85%;
+height: 100px;
+background-color:white;
+padding: 20px;
+vertical-align: top;
+}
+.Buttons2{
+    font-family: roboto;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-column-gap: 10px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    }
+.side{
+    padding:10px;
+    text-align: left;
+    font-family: roboto;
+background-color: white;
+align-content: end;
+height: auto;
+width: 110px
+
+}
+
+.Bottom{
+    font-family: roboto;
+    background-color: rgb(207, 140, 140);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
