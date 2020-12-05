@@ -14,28 +14,31 @@
     </nav>
 </div>
 <div class="middle">
-    <div class="side">
+    <div class="side" >
         <h3>My notes</h3>
-        <ul>
-            <li>Note one</li>
-            <li>Note two</li>
-        </ul>
+        <p id = "sidebar"></p>
+
     </div>
     <div class="Main">
         <div class="Buttons">
-            <button class="New">New Note</button>
-            <button class="Dark">Dark Theme</button>
+            <button class="New" Id = "r">New Note</button>
+            <button class="Dark" id = "Dark">Dark Theme</button>
         </div>
-
-        <div class="Textbox">Enter notes</div>
+        <div id = "form">
+        <div class="Textbox" >
+            <input type="text" id = "title "name="title" value="" placeholder="title"><br>
+            <input type="text" id ="body" name="body" value="" placeholder="Enter body"><br>
+            <div id = "output"></div>
+        </div>
 
         <div class="Buttons2">
-            <button class="Save">Save</button>
-            <button class="Cancel">Cancel</button>
+            <button class="Save" id = "Save">Save</button>
+            <button class="Cancel" id = "h">Cancel</button>
         </div>
     </div>
+    </div>
 </div>
-<div class="Bottom"><h2>Keep in touch</h2>
+<div class="Bottom" id ="Bottom"><h2>Keep in touch</h2>
 <nav>
 <a href="https://www.linkedin.com/">
         <img alt="Qries" src=images.png
@@ -45,5 +48,6 @@
             width=auto height="50">
 </nav>
 </div>
+<script src="apps.js"></script>
 </body>
 </html>
