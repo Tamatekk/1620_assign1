@@ -8,7 +8,7 @@ body{
 margin: auto;
 align-items: center;
 font-family: roboto;
-background-color: rgb(167, 93, 93);
+background-color:indianred;
 position: sticky;
 top:0;
 height: 70px;
@@ -23,7 +23,7 @@ padding: 10px;
 .Main{
 
     grid-template-columns: repeat(50px);
-    background-color: rgb(197, 197, 197);
+    background-color: lightgrey;
     display:grid;
     grid-gap: 10px;
     align-content: start;
@@ -45,13 +45,13 @@ padding: 10px;
 border-radius: 8px;
 color: white;
 width: 100px;    
-background: rgb(0, 128, 75)
+background: green
 }
 .Dark{
 border-radius: 8px;
 color: white;
 width: 100px;  
-background: rgb(63, 61, 61);
+background: black;
 }
 .Save{
     border-radius: 8px;
@@ -99,7 +99,7 @@ width: 110px
 
 .Bottom{
     font-family: roboto;
-    background-color: rgb(207, 140, 140);
+    background-color:lightcoral;
     position: fixed;
     bottom: 0;
     width: 100%;
